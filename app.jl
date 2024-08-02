@@ -15,6 +15,7 @@ function main()
     annotate!(p, 0.5, 0.5, text(omikuji, 30, :center))
     plot(p)
     savefig(p, "omikuji.png")
+    @assert isfile("omikuji.png")
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
