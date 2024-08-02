@@ -10,5 +10,8 @@ Have you ever drawn an omikuji(`おみくじ`，`御神籤`)? It's a traditional
 
 ## Today's Fortune
 
+Here, this is today's fortune.
+
 ![](https://github.com/AtelierArith/OmikujiWorkflow.jl/releases/download/omikuji%2Ftoday/omikuji.png)
 
+Actually, this is generated randomly using GitHub Actions behind the scenes.
