@@ -1,0 +1,8 @@
+*.gif
+.CondaPkg
+.DS_Store
+/Manifest.toml
+/docs/Manifest.toml
+/docs/build/
+docs/build/
+docs/site/
