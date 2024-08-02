@@ -36,7 +36,7 @@ jobs:
       - uses: julia-actions/cache@v2
       - uses: julia-actions/julia-buildpkg@v1
       - name: Create omikuji
-        run: julia --project app.jl
+        run: xvfb-run julia --project app.jl
       - name: upload result to release page
         uses: ncipollo/release-action@v1
         with:
